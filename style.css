@@ -1,0 +1,55 @@
+body{
+    background-color:khaki;
+}
+#container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+    margin: 20px;
+
+}
+.box{
+    border: brown solid 1px;
+    gap: 5px;
+    max-width: 30%;
+}
+
+.panier{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(247, 112, 16);
+    padding-left: 35%;
+    
+}
+.imgpanier{
+    height: 40px;
+    width: 40px;
+}
+
+.quantity{
+    top: 200px;
+    left: 175px;
+}
+
+
+.price{
+    margin: auto;
+    padding-left: 45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(247, 112, 16);
+}
+.button {
+    width: fit-content;
+    background: transparent;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    border: transparent;
+}
+.heart {
+    font-size: 25px;
+      color:red;
+  }
